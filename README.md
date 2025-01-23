@@ -98,7 +98,7 @@ Il progetto è suddiviso in tre file principali, che rappresentano le diverse fa
 
 3. **MOD_FIN.ipynb**:
    - Contiene un modello migliorato, sviluppato da zero, con l'inclusione di tecniche avanzate come data augmentation, bilanciamento del dataset e ottimizzazione dei parametri.
-   - Sebbene migliori rispetto al modello iniziale (File 2), l'obiettivo è capire le differenze rispetto al modello basato su EfficientNet.
+   - Sebbene migliori rispetto al modello precedente (File 2), l'obiettivo è capire le differenze rispetto al modello basato su EfficientNet.
    - Lo scopo principale è analizzare le differenze tra le varie implementazioni e comprendere quali fattori influiscono maggiormente sulle prestazioni.
 
 ## Come contribuire
