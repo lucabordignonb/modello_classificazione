@@ -108,11 +108,11 @@ Per configurare l'ambiente di sviluppo ed eseguire i file del progetto, segui i 
 1. **Crea un ambiente virtuale**:
    È consigliato utilizzare un ambiente virtuale per gestire le dipendenze, noi abbiamo utilizzato Anaconda.
 2. **Attiva l'ambiente su Python**:
-   Dopo aver creato l'ambiente lo abbiamo attivato con il comanda conda activate e il nome dell'ambiente scelto.
+   Dopo aver creato l'ambiente lo abbiamo attivato attraverso il comando "conda activate" + il nome dell'ambiente scelto.
 3. **Installa le librerie richieste**:
-   Successivamnete abbiamo installato tutte le librerie necessarie per il progetto con il comando pip install tensorflow keras scikit-learn matplotlib seaborn pandas pillow   
-4. **Mantieni nella directory la cartella archive con il dataset diviso**
-5. **Avvia i file del progetto**
+   Successivamnete abbiamo installato tutte le librerie necessarie per il progetto con il comando "pip install" per tensorflow, keras, scikit-learn, matplotlib, seaborn, pandas e pillow. 
+5. **Mantieni nella directory la cartella archive con il dataset diviso**
+6. **Avvia i file del progetto**
 
 
 ### Struttura del progetto
@@ -121,7 +121,7 @@ La struttura del progetto è organizzata come segue:
 
 - **MOD_EFF.ipynb**: Codice commentato di un modello preesistente basato su EfficientNet, pubblicato su Kaggle. Questo file analizza e documenta il funzionamento e le scelte implementative del modello originale.
 - **MOD_CNN.ipynb**: Modello iniziale sviluppato durante il progetto. Questo modello mostra prestazioni di base ed evidenzia le limitazioni di un'implementazione senza ottimizzazioni avanzate.
-- **MOD_FIN.ipynb**: Modello migliorato con tecniche avanzate come data augmentation e bilanciamento del dataset. È utilizzato per confrontare le performance rispetto al modello iniziale e a quello preesistente.
+- **MOD_FIN.ipynb**: Modello migliorato con tecniche avanzate come data augmentation e bilanciamento del dataset. È utilizzato per confrontare le performance rispetto al modello precedente e a quello iniziale.
 - **dataset/**: Contiene i dati di training e test organizzati nelle seguenti sottocartelle:
   - `/train/Fake`
   - `/train/Genuine`
